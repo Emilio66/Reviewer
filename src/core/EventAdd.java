@@ -53,6 +53,11 @@ public class EventAdd {
                     break;
             }
 
+            if(content.length() < 2) {
+                System.out.println("NOTHING ADD");
+                return;
+            }
+
             //writing to file
             String delta = properties.getProperty("delta");
             if(delta != null){
