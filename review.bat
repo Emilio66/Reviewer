@@ -1,1 +1,1 @@
-java -cp E:\workspace\Reviewer\out\production\Reviewer\ core.Reviewer
+java -cp D:\workspace\Reviewer\out\production\Reviewer\ core.Reviewer
