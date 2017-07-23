@@ -16,6 +16,7 @@ public class Reviewer {
         String filename = format.format(Calendar.getInstance().getTime());
         filename = dir + File.separator + filename+".log";
         File file = new File(filename);
+        System.out.println("Filename: "+file.getAbsolutePath());
         if(file.exists()){
             try {
                 System.out.println("TODAY'S REVIEW TASKS: ");
